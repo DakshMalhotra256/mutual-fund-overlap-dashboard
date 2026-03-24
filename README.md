@@ -61,6 +61,7 @@ Indian retail investors often hold multiple mutual funds thinking they're divers
 - **Records**: 3,421 holdings across 45 funds
 - **Columns**: fund_name, stock_name, sector, holding_pct, market_cap, fund_category
 - **Fund Categories**: Large Cap (5), Mid Cap (5), Small Cap (10), Flexi Cap (10), Index (5), and others
+- **Data as of:** February/March 2026
 
 ## Project Structure
     ├── MF_Overlap_Dashboard.pbix          # Power BI dashboard file
@@ -72,6 +73,17 @@ Indian retail investors often hold multiple mutual funds thinking they're divers
     │   ├── page3_concentration.png
     │   └── page4_category.png
     └── README.md
+    
+## How to View
+1. **Screenshots & PDF**: Browse this repo — screenshots are in the README, PDF is downloadable
+2. **Interactive Dashboard**: Download `MF_Overlap_Dashboard.pbix` and open in [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop) (free)
+3. **Data**: The CSV file is included if you want to explore the raw data
+
+## Limitations
+- Data scraped from Moneycontrol at a single point in time — holdings change monthly with portfolio rebalancing
+- Equity holdings only — debt, cash, and foreign equity positions are excluded
+- Fund category classification is based on fund name keywords, not official SEBI categorization
+- The dashboard requires Power BI Desktop (Windows only) to interact with — PDF export provided for other platforms
 
 ## Tools Used
 - **Power BI Desktop** — Dashboard creation, DAX measures, interactive visuals
