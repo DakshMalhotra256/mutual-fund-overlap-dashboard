@@ -65,7 +65,7 @@ Indian retail investors often hold multiple mutual funds thinking they're divers
 ## Project Structure
     ├── MF_Overlap_Dashboard.pbix          # Power BI dashboard file
     ├── mutual_fund_holdings_dashboard.csv  # Dataset used
-    ├── dashboard_export.pdf               # PDF export of all 4 pages
+    ├── dashboard_preview.pdf               # PDF export of all 4 pages
     ├── screenshots/                       # Page screenshots
     │   ├── page1_overview.png
     │   ├── page2_overlap.png
